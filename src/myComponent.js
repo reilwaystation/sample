@@ -14,6 +14,7 @@ const myComponent = () => {
         align-items: center;
       `}
     >
+      {/* THIS DIV WRAPS THE ABSOLUTE DIVS */}
       <div
         className={css`
           width: 100%;
@@ -55,7 +56,7 @@ const myComponent = () => {
           </button>
         </div>
 
-        {/* GROUP 1 BUTTONS IN THE MIDDLE */}
+        {/* GROUP 1 BUTTONS IN THE RIGHT */}
         <div
           className={css`
             margin: 0 0.5rem;
